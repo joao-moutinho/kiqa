@@ -1,0 +1,107 @@
+.product-root {
+    background-image: url("https://www.pngkey.com/png/full/85-853410_hot-makeup-professional-png-make-up.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    .breadCrumb {
+        margin-bottom: 2.5%;
+        margin-top: 2.5%;
+        display: flex;
+        align-items: center;
+        box-sizing: border-box;
+        width: 100%;
+        height: 80px;
+        color: rgba(0, 0, 0, 0.883);
+        justify-content: space-evenly;
+        min-width: 270px;
+        text-transform: uppercase;
+
+        @media (max-width: 628px) {
+            flex-direction: column;
+            margin-bottom: 5%;
+        }
+    }
+
+    .productPage {
+        font-family: "Lato", sans-serif;
+        align-items: center;
+
+        .productPage-top {
+            flex-direction: row;
+            align-items: center;
+            display: flex;
+            width: 1200px;
+            height: 100%;
+            margin-left: calc((100% - 1200px) / 2);
+
+            @media (max-width: 1200px) {
+                bottom: 0;
+                margin-left: 0;
+                width: 90%;
+                min-height: 90%;
+                margin: 5%;
+            }
+
+            @media (max-width: 628px) {
+                flex-direction: column;
+                width: 100%;
+                min-height: 100%;
+                margin: 0%;
+            }
+
+            .productPage-left {
+                display: flex;
+                flex-direction: row;
+                justify-self: flex-start;
+                width: 90%;
+                min-height: 90%;
+            }
+
+            .productPage-right {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 90%;
+                min-height: 90%;
+            }
+        }
+
+        .moreProducts {
+            background-color: rgba(0, 0, 0, 0.884);
+            color: white;
+            border-radius: 30px;
+            position: relative;
+            margin-left: calc((100% - 250px) / 2);
+            display: flex;
+            align-self: center;
+            justify-content: center;
+            width: 250px;
+            border: 2px solid rgb(194, 209, 252);
+            margin-top: 3%;
+        }
+
+        .productPage-related {
+            margin-left: calc((100% - 1200px) / 2);
+            flex-direction: row;
+            width: 1200px;
+            min-height: 100%;
+            // height: 200px;
+            border: 0px solid black;
+            margin-top: 2%;
+            bottom: 0;
+            @media (max-width: 1200px) {
+                bottom: 0;
+                margin-left: 0;
+                width: 100%;
+                min-height: 100%;
+            }
+
+            @media (max-width: 628px) {
+                flex-direction: column;
+                width: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+}

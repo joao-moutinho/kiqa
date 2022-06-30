@@ -1,0 +1,12 @@
+.auth-wrapper {
+  background-image: url(../../../assets/auth-hero-img.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  @media (max-width: 768px){
+    display: none;
+  }
+}
+

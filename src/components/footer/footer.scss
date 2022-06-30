@@ -1,0 +1,35 @@
+.footer-main {
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: 100px;
+  height: 100%;
+}
+
+.footer-wrapper {
+  width: 1200px;
+  margin-left: calc((100% - 1200px) / 2);
+  display: flex;
+  justify-content: space-between;
+  @media (max-width: 1200px) {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+  }
+
+  h3 {
+    @media (max-width: 576px) {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 576px) {
+    justify-content: space-evenly;
+  }
+}
+
+.links-footer {
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  font-weight: 500px;
+}

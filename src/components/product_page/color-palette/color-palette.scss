@@ -1,0 +1,45 @@
+.color-palette {
+    text-decoration-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    overflow: scroll;
+    box-sizing: border-box;
+    padding: 10%;
+    width: 100%;
+    .circle {
+        margin: 1%;
+        .circle1 {
+            box-sizing: border-box;
+            display: flex;
+            border: 1px solid rgb(0, 0, 0);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            align-items: center;
+            justify-content: center;
+
+            .name {
+                padding: 0;
+                font-size: 0;
+            }
+            &:hover {
+                transform: scale(1.8);
+                // margin-left: 5%;
+                // margin-right: 5%;
+                justify-content: center;
+                align-items: center;
+                
+
+                .name {
+                    background-color: rgb(205, 205, 205, 0.5);
+                    border-radius: 10px;
+                    font-size: 6px;
+                    padding: 5%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

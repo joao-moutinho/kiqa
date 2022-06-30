@@ -1,0 +1,282 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product Not Should show Modal 1`] = `
+<div>
+  <div
+    class="product"
+  >
+    <div
+      class="product-image"
+    >
+      <img
+        height="150px"
+        src="  "
+        width="150px"
+      />
+    </div>
+    <div
+      class="product-name"
+    />
+    <div
+      class="product-price"
+    >
+      5
+       €
+    </div>
+    <div
+      class="buy-button"
+    >
+      <div
+        class="primary-button"
+      >
+        <button>
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+   
+</div>
+`;
+
+exports[`Product Should showModal when press Add to Cart button 1`] = `
+HTMLCollection [
+  <div
+    class="modal-buy-box"
+  >
+    <div
+      class="modal-buy-box-image"
+    >
+      <img
+        alt="product_photo"
+        src="  "
+        width="95%"
+      />
+    </div>
+    <div
+      class="modal-buy-box-rigth"
+    >
+      <div
+        class="modal-buy-box-rigth-info"
+      >
+        <div
+          class="modal-buy-box-rigth-info-name"
+        />
+        <div
+          class="modal-buy-box-rigth-info-price"
+        >
+          5
+           €
+        </div>
+      </div>
+      <div
+        class="modal-buy-box-rigth-dropdownColors"
+      >
+        <div
+          class="modal-buy-box-rigth-dropdownColors-color"
+          data-testid="color"
+          style="background-color: rgb(178, 131, 120); border: 2px solid black;"
+        />
+      </div>
+      <div
+        class="modal-buy-box-rigth-buy"
+      >
+        <div
+          class="modal-buy-box-rigth-buy-quantity"
+        >
+          <div
+            class="quantity"
+          >
+            <button
+              class="quantity-button"
+            >
+               
+              -
+               
+            </button>
+            <div
+              class="quantity-output"
+            >
+              1
+            </div>
+            <button
+              class="quantity-button"
+            >
+               
+              +
+               
+            </button>
+          </div>
+          <div
+            class="primary-button"
+          >
+            <button>
+              Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Product Should showModal when press Add to Cart button 2`] = `
+<div>
+  <div
+    class="product"
+  >
+    <div
+      class="product-image"
+    >
+      <img
+        height="150px"
+        src="  "
+        width="150px"
+      />
+    </div>
+    <div
+      class="product-name"
+    />
+    <div
+      class="product-price"
+    >
+      5
+       €
+    </div>
+    <div
+      class="buy-button"
+    >
+      <div
+        class="primary-button"
+      >
+        <button>
+          Add to Cart
+        </button>
+      </div>
+    </div>
+    <div
+      class="modal-buy"
+      data-testid="modal-buy"
+    >
+      <div
+        class="modal-buy-box"
+      >
+        <div
+          class="modal-buy-box-image"
+        >
+          <img
+            alt="product_photo"
+            src="  "
+            width="95%"
+          />
+        </div>
+        <div
+          class="modal-buy-box-rigth"
+        >
+          <div
+            class="modal-buy-box-rigth-info"
+          >
+            <div
+              class="modal-buy-box-rigth-info-name"
+            />
+            <div
+              class="modal-buy-box-rigth-info-price"
+            >
+              5
+               €
+            </div>
+          </div>
+          <div
+            class="modal-buy-box-rigth-dropdownColors"
+          >
+            <div
+              class="modal-buy-box-rigth-dropdownColors-color"
+              data-testid="color"
+              style="background-color: rgb(178, 131, 120); border: 2px solid black;"
+            />
+          </div>
+          <div
+            class="modal-buy-box-rigth-buy"
+          >
+            <div
+              class="modal-buy-box-rigth-buy-quantity"
+            >
+              <div
+                class="quantity"
+              >
+                <button
+                  class="quantity-button"
+                >
+                   
+                  -
+                   
+                </button>
+                <div
+                  class="quantity-output"
+                >
+                  1
+                </div>
+                <button
+                  class="quantity-button"
+                >
+                   
+                  +
+                   
+                </button>
+              </div>
+              <div
+                class="primary-button"
+              >
+                <button>
+                  Add to Cart
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+</div>
+`;
+
+exports[`Product render 1`] = `
+<div>
+  <div
+    class="product"
+  >
+    <div
+      class="product-image"
+    >
+      <img
+        height="150px"
+        src="  "
+        width="150px"
+      />
+    </div>
+    <div
+      class="product-name"
+    />
+    <div
+      class="product-price"
+    >
+      5
+       €
+    </div>
+    <div
+      class="buy-button"
+    >
+      <div
+        class="primary-button"
+      >
+        <button>
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </div>
+   
+</div>
+`;

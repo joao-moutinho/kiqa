@@ -1,0 +1,19 @@
+.product-list-loading{
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+
+    .product-list-loading-box{
+        margin: 4px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 260px;
+        height: 400px;
+        padding: 8px;
+        box-sizing: border-box;
+        border-radius: 6px;
+        background-color: rgb(201, 201, 201);
+    }
+}

@@ -1,0 +1,54 @@
+.user-panel-main {
+  width: 1200px;
+  margin-left: calc((100% - 1200px) / 2);
+  height: calc(100vh - 438px);
+  display: flex;
+  @media (max-width: 1200px) {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+    height: calc(100vh - 398px);
+  }
+  @media (max-width: 675px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 576px) {
+    height: 100%;
+  }
+
+  .order-change-user {
+    width: 100%;
+  }
+}
+
+.change-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 360px;
+}
+
+.change-info-main {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    text-align: center;
+  }
+
+  input {
+    height: 20px;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+  }
+}

@@ -1,0 +1,32 @@
+.latest-prods-wrapper {
+  width: 1200px;
+  margin-left: calc((100% - 1200px) / 2);
+  margin-top: 100px;
+  @media (max-width: 1200px) {
+    margin-left: 0px;
+    width: 100%;
+    padding: 0%;
+  }
+
+  & h2 {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(0, 0, 0, 0.598);
+    color: white;
+    padding: 5px;
+    width: 340px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    @media (max-width: 576px) {
+      width: 200px;
+      font-size: 28px;
+    }
+  }
+
+  .latest-prods-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

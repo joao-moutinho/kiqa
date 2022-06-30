@@ -1,0 +1,35 @@
+.quantity{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    height: 40px;
+    
+    
+    .quantity-button{
+        all: unset;
+        width: 15%;
+        text-align: center;
+        font-size: 26px;
+        font-weight: 100;
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(213, 213, 213);
+        }
+
+        &:active{
+            background-color: rgb(157, 157, 157);
+        }
+    }
+
+    .quantity-output{
+        width: 70%;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+}

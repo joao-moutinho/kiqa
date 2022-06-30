@@ -1,0 +1,103 @@
+.summarylist{
+
+    &-box{
+        border-radius: 10px;
+        width: 700px;
+        height: 80%;
+        background-color: white;
+        padding: 20px;
+        overflow: scroll;
+
+        &-top{
+            &-icon{
+                cursor: pointer;
+            }
+            &-title{
+                font-size: 32px;
+                font-weight: 700;
+            }
+            
+            &-tableheader{
+                font-weight: bold;
+                width: 100%;
+                display: grid;
+                grid-template-columns: 2fr 1fr 1fr 1fr ;
+            }
+
+            &-hr{
+                margin-top: 20px;
+                color: rgb(174, 174, 174);
+            }
+        }
+
+        &-center{
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            
+            &-img{
+                display: flex;
+                flex-direction: row;
+
+                &-left{
+
+                }
+                &-right{
+                    font-size: 16px;
+
+                    &-color{
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                    }
+                }
+            }
+
+            &-price{
+                margin-top: 44px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            
+            &-qty{
+                margin-top: 44px;
+            }
+
+            &-total{
+                margin-top: 44px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+        }
+
+        &-bottom{
+            width: 100%;
+
+            &-title{
+                font-size: 32px;
+                font-weight: 700;
+            }
+
+            &-total{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-top: 20px;
+                &-left{
+
+                }
+                &-right{
+                    font-size: 30px;
+                    font-weight: 900;
+                }
+            }
+
+            &-checkout{
+                margin-top: 20px;
+
+                &-button{
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

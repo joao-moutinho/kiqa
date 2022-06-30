@@ -1,0 +1,30 @@
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  height: 65%;
+}
+
+.media-icon {
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+.meta-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.twitter-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.socials-title {
+  font-size: 24px;
+}

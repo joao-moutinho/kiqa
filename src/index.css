@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+html,#root,.App{
+    min-height: 100vh;
+    
+}
